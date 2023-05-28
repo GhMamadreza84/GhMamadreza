@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="src/css/main.css">
     <title>Dashbord-Panel</title>
     <script>
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -27,7 +27,7 @@
         </button>
         <div class="bg-indigo-700 dark:bg-gray-800 overflow-y-auto flex flex-col flex-grow pt-5" id="sidebar-content-layout">
             <div class="px-4">
-                    <img src="images/me4.png" alt="">
+                    <img src="src/images/me4.png" alt="">
             </div>
             <nav class="space-y-5 px-4 mt-5">
                 <a href="#" class="flex text-gray-300 items-center space-x-2 space-x-reverse px-2 py-2 bg-indigo-800 rounded">
@@ -123,7 +123,7 @@
                       </svg>                      
                 </div>
                 <div class="flex-shrink-0 pl-8">
-                    <img src="images/me.jpg" alt="" class="w-8 h-8 rounded-full">
+                    <img src="src/images/me.jpg" alt="" class="w-8 h-8 rounded-full">
                 </div>
             </div>
         </div>
